@@ -15,20 +15,16 @@ public class FibonacciSeriesTest
 
     FibonacciSeries fib = null;
     @Before
-   public void setUp(){
-       fib = new FibonacciSeries();
+    public void setUp(){
+        fib = new FibonacciSeries();
 
-   }
-    @After
-   public void tearDown(){
-      fib = null;
-
-   }
-    @Test
-    public void givenAnIntegerReturnLastNumberOfFibonacciSeries()
-    {
-        assertEquals( 55,fib.fibonacci(9));
     }
+    @After
+    public void tearDown(){
+        fib = null;
+
+    }
+
     @Test
     public void givenOneReturnOne()
     {
@@ -37,14 +33,13 @@ public class FibonacciSeriesTest
     @Test
     public void givenZeroReturnOne()
     {
-        assertEquals( 1,fib.fibonacci(0));
+        assertEquals( 0,fib.fibonacci(0));
     }
     @Test
     public void givenANegativeIntegerReturnOne()
     {
 
-        assertEquals( 1,fib.fibonacci(-8));
-        assertNotEquals(55,fib.fibonacci(-9));
+        assertEquals( -1,fib.fibonacci(-8));
+        assertNotEquals(34,fib.fibonacci(-9));
     }
-
 }

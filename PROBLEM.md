@@ -16,7 +16,7 @@ Write a Java program to generate the Fibonacci Series by using recursion
 1. The class FibonacciSeries consists of two methods.
 - **public long fibonacci(long number)** 
 This is a recursive method that takes an integer as input and returns the number of Fibonacci series numbers based on the input.
-If 9 is the input, it must generate the first 9 numbers of the series i.e.,1, 2, 3, 5, 8, 13, 21, 34, 55. 
+If 9 is the input, it must generate the first 9 numbers of the series i.e.,0,1,1, 2, 3, 5, 8, 13, 21. 
 
 - **public void printFibonacciSeries(long number)**
 This method prints the Fibonacci series by calling the fibonacci() method to get the next number in the series.

@@ -4,7 +4,7 @@ public class FibonacciSeries
 {
     // Write the logic in the method to generate the next number in the Fibonacci series
     public long fibonacci(long number) {
-        return -1;
+        return -2;
     }
     // Print the series inside the method
     public void printFibonacciSeries(long number){
